@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" type="img/x-icon" href="./img/Ico_Seta.ico" />   
+     <title>Cueva Retro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+    <img class="inicio"src="img/Teclado_Retro.jpg">
+    <header x-data="{ open: false }" class="header">
+
+        <div class="header__logo">
+            <img class="alien"src="img/Alien_Retro.svg" alt="">
+          </div>
+          
+          <h1>Cueva Retro</h1>
+          <img class="header__button-nav--open" x-on:click="open = true" src="img/Menu.svg" alt="">
+    
+    <nav class="nav" x-bind:class="open ? 'nav--show' : ''">
+        <!-- Boton cerrar -->
+        <div class="nav__button" x-on:click="open = false">
+          <img class="alien header__button-nav--close"src="img/Alien_Retro.svg" alt="">
+    
+        </div>
+    
+    <ul class="nav__ul">
+    <a class="nav__link" href="index.html">Tienda</a>
+    <a class="nav__link" href="Juegos.html">Juegos</a>
+    <a class="nav__link" href="Música.html">Música</a>
+    <a class="nav__link"  href="Inicio_Sesion.html" id="boton"type="button">Iniciar Sesión</a> 
+    </ul>
+    </nav>
+    </header> 
+<div class="container">
+    <hr class="separador"></hr>
+</div>
+
+   <h2>Vip</h2>
+   
+  
+</body>
+</html>

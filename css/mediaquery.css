@@ -5,6 +5,8 @@
 /* *** Smartphone *** */
 @media only screen and (min-device-width: 320px) and (orientation: portrait){
 
+  
+    
 }
 /* *************** */
 /* *** Tablet *** */
@@ -22,4 +24,6 @@
 /* *** Desktop *** */
 @media only screen and (min-width: 1100px){
     /* cambio de nav */
+
+   
 }

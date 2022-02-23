@@ -1,4 +1,298 @@
-/* CSS LAYOUT */
-/* **************************************************************** */
+/* Estilos comunes */
+body {
+  background-color: #022873;
+  margin: 0 0;
+  padding: 0;
+}
 
+h1 {
+  font-size: 0px;
+  line-height: 0px;
+}
 
+a {
+  opacity: 1;
+  color: black;
+  font-size: 15px;
+  font-family: "Press Start 2P", cursive;
+}
+.inicio {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: auto;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  position: absolute;
+  width: 129px;
+  height: 11px;
+  left: 900px;
+  top: 1000px;
+
+  color: #ffffff;
+}
+.alien {
+  opacity: 1;
+  left: 1.46%;
+  right: 91.04%;
+  top: 13.29%;
+  bottom: 9.79%;
+  height: 67px;
+  width: 84px;
+}
+
+.boton {
+  border: none;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+  background: #f072f2;
+}
+/* nav ul a#boton{
+        border: none;
+        text-align: center;
+        font-size: 15px;
+        cursor: pointer;
+        background: #F072F2;  
+      
+      } */
+.formulario {
+  text-align: center;
+  align-items: center;
+  width: 591.71px;
+  height: 800px;
+  background: #4b4b4b;
+  box-shadow: 17.4545px 17.4545px 17.4545px rgba(0, 0, 0, 0.5);
+}
+.formulario2 {
+  text-align: center;
+  align-items: center;
+  width: 591.71px;
+  height: 600px;
+  background: #4b4b4b;
+  box-shadow: 17.4545px 17.4545px 17.4545px rgba(0, 0, 0, 0.5);
+}
+form {
+  align-items: center;
+  padding: 30px;
+}
+input[type="submint"] {
+  border: 0.872727px solid #0b59bf;
+  border-radius: 0;
+  width: 460.8px;
+  height: 61.96px;
+  background: #0b59bf;
+}
+input {
+  border: 0.872727px solid #0b59bf;
+  border-radius: 0;
+  width: 460.8px;
+  height: 61.96px;
+  background: #212121;
+}
+h3 {
+  text-align: center;
+  font-size: 17.4545px;
+  line-height: 17px;
+  font-family: "Press Start 2P", cursive;
+
+  color: #ffffff;
+}
+.linea {
+  justify-content: center;
+  width: 465.16px;
+  height: 4.36px;
+
+  background: #ffffff;
+}
+::placeholder {
+  color: #c4c4c4;
+  font-size: 17.4545px;
+  font-family: "Press Start 2P", cursive;
+}
+.boton_login {
+  border: 0.872727px solid #0b59bf;
+  border-radius: 0;
+  width: 460.8px;
+  height: 61.96px;
+  background-color: #0b59bf;
+}
+button {
+  font-family: "Press Start 2P", cursive;
+}
+
+.registro {
+  color: #c4c4c4;
+  font-size: 17.4545px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.centrar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  padding: 15px;
+  margin-top: 200px;
+}
+
+header {
+  background: #05dbf270;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+}
+
+/* Estilos móvil */
+@media all and (max-width: 800px) {
+  header {
+    height: 80px;
+  }
+  .prueba {
+    height: 48px;
+    width: 48px;
+  }
+
+  h1 {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 70px;
+    color: #000000;
+    font-family: "Press Start 2P", cursive;
+    font-size: 15px;
+  }
+
+  .alien {
+    opacity: 1;
+    height: 57px;
+    width: 74px;
+  }
+
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #05dbf270;
+    transform: translateX(-100vw);
+    transition: 0.5s;
+  }
+
+  .nav--show {
+    transform: translateX(0);
+  }
+
+  .nav__button {
+    text-align: right;
+    margin: 1rem;
+  }
+
+  .nav__ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav__link {
+    display: block;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+  .formulario {
+    text-align: center;
+    align-items: center;
+    width: 291.71px;
+    height: 800px;
+    background: #4b4b4b;
+    box-shadow: 17.4545px 17.4545px 17.4545px rgba(0, 0, 0, 0.5);
+  }
+  .formulario2 {
+    text-align: center;
+    align-items: center;
+    width: 291.71px;
+    height: 600px;
+    background: #4b4b4b;
+    box-shadow: 17.4545px 17.4545px 17.4545px rgba(0, 0, 0, 0.5);
+  }
+
+  input {
+    border: 0.872727px solid #0b59bf;
+    border-radius: 0;
+    width: 220.8px;
+    height: 41.96px;
+    background: #212121;
+  }
+
+  ::placeholder {
+    color: #c4c4c4;
+    font-size: 10.4545px;
+    font-family: "Press Start 2P", cursive;
+  }
+
+  .boton_login {
+    border: 0.872727px solid #0b59bf;
+    border-radius: 0;
+    width: 220.8px;
+    height: 51.96px;
+    background-color: #0b59bf;
+  }
+  .linea {
+    justify-content: center;
+    width: 215.16px;
+    height: 4.36px;
+
+    background: #ffffff;
+  }
+}
+
+/* Estilos Escritorio */
+@media all and (min-width: 801px) {
+  /* Oculta botón de abrir o cerrar */
+  .nav__button,
+  .header__button-nav--open {
+    display: none;
+  }
+
+  /* Adapta el nav en horizontal */
+  .nav__ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+
+  .nav__link {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+  }
+
+  .nav__link:hover {
+    opacity: 0.5;
+  }
+}

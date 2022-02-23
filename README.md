@@ -1,14 +1,1 @@
-# plantillaFlexGrid
-
-### Plantilla pensada para hacer un Fork
-(Concepto Plantilla/Template)
-
-__Tecnología integrada__
-- HTML5
-- CSS3
-- Sistema modular CSS3
-- Fuentes residentes
-- Media Querys
-- FlexBox
-- Grid Layout
-- Normalize + reset
+Proyecto Web de desarrollo de una pagina web con dominio propio, pagina responsiva, formulario funcional y base de datos de usuarios
